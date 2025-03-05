@@ -129,8 +129,6 @@ const Jobs = () => {
     }
   }
 
-  console.log(jobs)
-
 
   useEffect(()=>{fetchJobs()},[])
 

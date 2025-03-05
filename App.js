@@ -6,14 +6,15 @@ import {
   SafeAreaView
 } from 'react-native';
 import Jobs from './screens/Jobs';
-
+import BottomTabNavigator from './navigation/bottom-tabs/BottomTabNavigator';
+import { NavigationContainer } from '@react-navigation/native';
 
 function App() {
 
   return (
-    <SafeAreaView>
-      <Jobs/>
-    </SafeAreaView>
+    <NavigationContainer>
+      <BottomTabNavigator/>
+      </NavigationContainer>
   );
 }
 
